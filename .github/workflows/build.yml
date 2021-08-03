@@ -15,6 +15,10 @@ jobs:
     - name: Set up Python ${{ matrix.python-version }}
       run: |
         apt update
+        apt install -y software-properties-common
+        apt install -y fontconfig libgles2-mesa libgles2-mesa-dev
+        add-apt-repository ppa:deadsnakes/ppa
+        apt update
         apt install -y python${{ matrix.python-version }} python${{ matrix.python-version }}-dev python3-pip
         python${{ matrix.python-version }} -m pip install pip setuptools wheel --upgrade
         if [ ! -e /usr/bin/python ]; then ln -sf python${{ matrix.python-version }} /usr/bin/python ; fi
