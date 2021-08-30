@@ -1,5 +1,5 @@
 ROI Reader
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 
 The ImageJ/FIJI ROI file format is an intermediate solution for reading shape information. You can create ROIs via ImageJ's/FIJI's `ROI manager <https://imagej.nih.gov/ij/docs/guide/146-30.html#sub:ROI-Manager...>`_. By selecting/exporting multiple ROIs ImageJ/FIJI creates a ZIP archive which contains all selected ROIs as individual files.
 
