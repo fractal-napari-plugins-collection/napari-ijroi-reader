@@ -6,4 +6,3 @@ The ImageJ/FIJI ROI file format is an intermediate solution for reading shape in
     Note: The ROI reader plugin currently support the following ROI types: polygon, rect, oval, line, freeline and freehand.
 
 Given a ROI file or ZIP file contianing multiple ROIs, you can simple drag-n-drop the file into Napari or open the file from within Napari via the "File/Open File(s)..." menu.
-
